@@ -1,0 +1,199 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color:darkslateblue;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 4px;
+    overflow: hidden;
+    border: 2px solid coral;
+    background-color:darkslateblue;
+    font-size: 24px;
+}
+
+nav li{
+    float: left;
+    display: inline;
+    margin: 0 8px
+}
+
+nav li a{
+    display: block;
+    color:coral;
+    text-align: center;
+    padding: 32px 32px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    /* color:darkslateblue; */
+    /* background-color: coral; */
+    border-left: 0.25px solid aquamarine;
+    border-right: 0.25px solid aquamarine;
+  }
+
+ .active {
+    background-color:coral;
+    color:darkslateblue;
+    font-weight: bold;
+ }
+
+
+
+
+
+ div.gallery {
+    margin: auto;
+    width: 25%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid coral;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+      }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color:coral;
+    font-size: larger;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+.standard-text {
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border-radius: 10px; */
+    background-color: coral;
+    color: darkslateblue;
+    border: solid 1px darkslateblue;
+    outline: solid 1px coral;
+}
+
+.links {
+    list-style: none;
+    margin: 4px;
+    overflow: hidden;
+}
+
+#orb {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    border: 1px solid aquamarine;
+    background-color: darkslateblue;
+    animation-name: the_orb;
+    animation-duration: 10s;
+    position: relative;
+    margin: auto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes the_orb {
+    from {background-color: darkslateblue;}
+    to {background-color: coral;}
+  }
+
+
+#main{
+    width:75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid lightcoral
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-article ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-article, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-article{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: cornflowerblue;
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color:bisque;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: darkolivegreen;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0px 12px 12px -12px white;
+}
+
+main{
+    overflow: auto;
+}
