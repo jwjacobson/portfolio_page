@@ -110,76 +110,8 @@ nav li a:hover:not(.active) {
   }
 
 
-#main{
-    width:75%;
-    float: left;
-    height: 100%;
-    padding-left: 20px;
-    padding-top: 20px;
-}
 
-#side{
-    width: 20%;
-    float: right;
-    height: 100%;
-    padding: 20px;
-}
-
-#profile-image{
-    width: 100px;
-    border-radius: 50%;
-    border:5px solid lightcoral
-}
-
-#profile{
-    text-align: center;
-}
-
-.side-article ul{
-    list-style-type: none;
-    padding-left: 0px;
-}
-
-#profile h2{
-    display: inline;
-}
-
-#profile-details{
-    margin-right: 30px;
-    text-align: center;
-}
-
-.side-article, .main-articles{
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-.side-article{
-    background-color: blueviolet;
-    text-align: center;
-}
-
-.main-articles{
-    background-color: cornflowerblue;
-}
-
-form{
-    margin-top: 20px;
-}
-
-textarea, input{
-    background-color:bisque;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-}
-
-.side-articles h1{
-    margin-bottom: 20px;
-}
-
-footer {
+/* footer {
     bottom: 0px;
     width: 100%;
     background-color: darkolivegreen;
@@ -192,8 +124,4 @@ footer hr{
     height: 12px;
     border: 0px;
     box-shadow: inset 0px 12px 12px -12px white;
-}
-
-main{
-    overflow: auto;
-}
+} */
