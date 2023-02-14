@@ -34,8 +34,8 @@ nav li a{
 nav li a:hover:not(.active) {
     /* color:darkslateblue; */
     /* background-color: coral; */
-    border-left: 0.25px solid aquamarine;
-    border-right: 0.25px solid aquamarine;
+    border-left: 1px solid aquamarine;
+    border-right: 1px solid aquamarine;
   }
 
  .active {
@@ -43,9 +43,6 @@ nav li a:hover:not(.active) {
     color:darkslateblue;
     font-weight: bold;
  }
-
-
-
 
 
  div.gallery {
@@ -73,9 +70,10 @@ nav li a:hover:not(.active) {
 
 .standard-text {
     padding: 5px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 8px;
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     /* border-radius: 10px; */
     background-color: coral;
@@ -97,7 +95,7 @@ nav li a:hover:not(.active) {
     border: 1px solid aquamarine;
     background-color: darkslateblue;
     animation-name: the_orb;
-    animation-duration: 10s;
+    animation-duration: 5s;
     position: relative;
     margin: auto;
     animation-iteration-count: infinite;
@@ -105,8 +103,8 @@ nav li a:hover:not(.active) {
   }
   
   @keyframes the_orb {
-    from {background-color: darkslateblue;}
-    to {background-color: coral;}
+    from {background-color: darkslateblue; border: 1px solid aquamarine;}
+    to {background-color: coral; border:1px solid darkslateblue;}
   }
 
 
